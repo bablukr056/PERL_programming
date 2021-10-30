@@ -1,0 +1,11 @@
+$DNA = 'ATGCATGCATGCAAAATTTT';
+print "Here is the starting DNA:\n\n";
+print "$DNA\n\n";
+$revcom = reverse $DNA;
+$revcom =~ s/A/T/g;
+$revcom =~ s/T/A/g;
+$revcom =~ s/G/C/g;
+$revcom =~ s/C/G/g;
+$revcom =~ tr/ACGTacgt/TGCAtgca/;
+print "Reverse complement of DNA:\n";
+print "$revcom\n";
