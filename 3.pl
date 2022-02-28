@@ -1,0 +1,11 @@
+@array = ('arnab','bablu','amal','chandan');
+print@array;
+print "\n";
+print "@array \n";
+print "\$array[0] = $array[0] \n";
+print "\$array[0] = @array[0] \n";
+print "\$array[1] = $array[1] \n";
+print "\$array[2] = $array[2] \n";
+print "\$array[3] = $array[3] \n";
+$r= 104.38;
+print"m = $r\n";
